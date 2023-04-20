@@ -1,0 +1,160 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 20%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: solid;
+    width: 50%;
+    height: 3.75rem;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    font-size: 1.15rem;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(13, 59, 13, 0.26);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.links{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.box{
+    width: 40%;
+    height: 30%;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: rgb(61, 58, 58);
+}
+.alert{
+    font-weight: 700;
+}
+.alert2{
+    margin-top: -2%;
+    font-size: 1.1rem;
+}
+
+.title{
+    width: 40%;
+    color: white;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.player1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35%;
+}
+
+.player2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35%;
+}
+
+datalist{
+    background-color: white;
+}
+
+form{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 700;
+    color: rgb(61, 58, 58);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#zapisani{
+    margin-top: 5%;
+    justify-content: flex-start;
+}
+input{
+    height: 2.4rem;
+    width: 100%;
+    min-width: 419px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: solid 1px;
+    background-color: rgba(142, 168, 147, 0.103);
+    border-color: rgba(1, 37, 18, 0.692);
+}
+
+.saveButton{
+    height: 3.75rem;
+    width: 10rem;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    font-size: 1.45rem;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(13, 59, 13, 0.26);
+    align-self: center;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    header{min-height: 100px;}
+    main{min-height: 700px;}
+    .title{
+        font-size: 4rem;
+    }
+    .title{
+        width: 80%
+    }
+    form{
+        width: 80%;
+    }
+    input{
+        width: auto;
+        min-width: 0;
+    }
+    .box{
+        width: 80%;
+    }
+    a{
+        font-size: 0.85rem;
+    }
+    
+}
